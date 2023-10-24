@@ -1,7 +1,7 @@
-import { useQuery } from "@tanstack/react-query";
-import { api } from "../api";
+import { useQuery } from '@tanstack/react-query'
+import { api } from '../api'
 
-interface Country {
+export interface Country {
   name: {
     common: string
   }
@@ -19,5 +19,5 @@ export const getCountries = async () => {
 }
 
 export const useCountries = () => {
-  return useQuery<Country[]>({ queryKey: ['countries'], queryFn: getCountries });
-};
+  return useQuery<Country[]>({ queryKey: ['countries'], queryFn: getCountries })
+}

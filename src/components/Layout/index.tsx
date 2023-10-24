@@ -1,7 +1,7 @@
 import { QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
-import { queryClient } from "../../services/query"
-import { GlobalStyles } from "../../styles/global"
+import { queryClient } from '../../services/query'
+import { GlobalStyles } from '../../styles/global'
 import { Header } from '../Header'
 
 interface LayoutProps {

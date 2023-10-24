@@ -6,6 +6,7 @@ export const HomeContainer = styled.div`
   justify-content: center;
   max-width: 90rem;
   padding: 3.125rem 1.5rem;
+  width: 100%;
 `
 
 export const HomeContent = styled.div`
