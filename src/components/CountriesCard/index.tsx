@@ -22,7 +22,7 @@ const CountryCardMemoized = ({
     <S.CountryCardContainer>
       <S.ImgContainer>
         {isLoading ? (
-          <S.SkeletonLoader />
+          <S.SkeletonLoader data-testid="skeleton-loading" />
         ) : (
           <img src={imgUrl} alt="Country Flag" />
         )}

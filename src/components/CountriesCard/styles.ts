@@ -8,6 +8,10 @@ export const CountryCardContainer = styled.div`
   border-radius: 5px;
   background: #2b3844;
   box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+
+  &:hover {
+    transform: translateY(-5px);
+  }
 `
 
 export const ImgContainer = styled.div`
@@ -19,6 +23,7 @@ export const ImgContainer = styled.div`
     object-fit: cover;
     height: 100%;
     width: 100%;
+    aspect-ratio: auto;
   }
 `
 

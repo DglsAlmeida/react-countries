@@ -68,7 +68,11 @@ const Home = () => {
               />
             ))}
       </S.HomeContent>
-      {!search && <button onClick={loadMoreCountries}>Load more...</button>}
+      {!search && (
+        <S.LoadMoreButton onClick={loadMoreCountries}>
+          Load more...
+        </S.LoadMoreButton>
+      )}
     </S.HomeContainer>
   )
 }
