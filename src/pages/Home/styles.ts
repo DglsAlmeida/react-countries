@@ -17,15 +17,15 @@ export const HomeContent = styled.div`
   margin: 2.5rem 0;
   width: 100%;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.md}) {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
     grid-template-columns: repeat(4, 1fr);
   }
 `

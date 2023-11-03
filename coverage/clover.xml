@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1698956270080" clover="3.2.0">
-  <project timestamp="1698956270080" name="All files">
+<coverage generated="1698958881395" clover="3.2.0">
+  <project timestamp="1698958881395" name="All files">
     <metrics statements="41" coveredstatements="5" conditionals="12" coveredconditionals="3" methods="14" coveredmethods="2" elements="67" coveredelements="10" complexity="0" loc="41" ncloc="41" packages="9" files="13" classes="13"/>
     <package name="src">
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -51,8 +51,8 @@
       <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="index.tsx" path="/home/dougalmeida/react-projects/reconciliation-project/src/components/Layout/index.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.pages.Home">

@@ -6,7 +6,7 @@ export const CountryCardContainer = styled.div`
   align-items: center;
   width: 100%;
   border-radius: 5px;
-  background: #2b3844;
+  background: ${({ theme }) => theme.colors.slateBlue};
   box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
 
   &:hover {
@@ -17,7 +17,7 @@ export const CountryCardContainer = styled.div`
 export const ImgContainer = styled.div`
   height: 10rem;
   width: 100%;
-  background: #202020;
+  background: ${({ theme }) => theme.colors.charcoal};
 
   img {
     object-fit: cover;
@@ -37,13 +37,13 @@ export const CountryCardContent = styled.div`
 `
 
 export const CountryName = styled.h3`
-  font-size: 1.125rem;
+  font-size: ${({ theme }) => theme.fonts.size.lg};
   font-weight: 700;
   margin-bottom: 1rem;
 `
 
 export const CountryDetails = styled.span`
-  font-size: 0.875rem;
+  font-size: ${({ theme }) => theme.fonts.size.sm};
 `
 
 export const loadingAnimation = keyframes`

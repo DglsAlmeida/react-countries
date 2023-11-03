@@ -5,21 +5,21 @@ export const Header = styled.header`
   align-items: center;
   justify-content: space-between;
   height: 5rem;
-  background-color: #2b3844;
+  background: ${({ theme }) => theme.colors.slateBlue};
   padding: 0 0.9375rem;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     padding: 0 5rem;
   }
 `
 
 export const Title = styled.span`
-  color: #fff;
-  font-size: 0.875rem;
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.fonts.size.sm};
   font-weight: 800;
 
   @media screen and (min-width: 768px) {
-    font-size: 1.5rem;
+    font-size: ${({ theme }) => theme.fonts.size.xxl};
   }
 `
 
@@ -27,13 +27,13 @@ export const DarkModeButton = styled.button`
   display: flex;
   align-items: center;
   gap: 0.25rem;
-  color: #fff;
+  color: ${({ theme }) => theme.colors.white};
   background: transparent;
   border: none;
   outline: none;
-  font-size: 0.75rem;
+  font-size: ${({ theme }) => theme.fonts.size.xs};
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.sm}) {
     font-size: 1rem;
   }
 `
